@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    
+    background-image: url("taskimg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100px;
+    width: 100px;
+
+}
+
+.ABC{
+    background-image: url("./tasklogo.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: rgb(144, 162, 117);
+    height: 100px;
+    width: 1536px;
+}
+
+.ABC ul{
+    float: right;
+    margin-right: 5px;
+}
+
+.ABC ul li{
+    position: relative;
+    top: 50px;
+    right: 10%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(211,181,163);
+    display:initial;
+   
+}
+.ABC ul li a{
+    color: black;
+    padding: 6px 7px;
+    border-radius: 3px;
+
+
+}
+.ABC ul li a:hover,
+.ABC ul li a.home1{
+    background-color: white;
+
+}
+
+.aside{
+    height: 84.5vh;
+    width: 15vw;
+    background-image: url("./pexels-antoni-shkraba-8206884.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: rgb(34, 39, 53);
+    font: bold;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 50px;
+}
+
+.aside{
+    opacity: 0.7;
+}
+
+.article1{
+    font-size: 30px;
+    text-decoration: underline;
+    position: absolute;
+    top: 20%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+   
+}
+
+.article2{
+    font-size: 25px;
+    color: rgb(48,44,40);
+    text-decoration: underline;
+    position: absolute;
+    top: 35%;
+    left: 55%;
+    transform: translate(-50%, -50%);
+   
+    
+}
+.a img{
+    position: absolute;
+    top: 20%;
+    left: 23%;
+    transform: translate(-50%, -50%);
+    border-radius: 40px;
+    height: 150px;
+    width: 150px;
+    opacity: 0.9;
+    background-image: url("./pexels-katerina-holmes-5905522-removebg-preview.png");
+    animation:anim1 20s;
+    animation-iteration-count:infinite;
+    animation-delay: 2s;
+}
+@keyframes anim1{
+
+    0%{
+        margin-top: 0;
+        margin-right: 0;
+    }
+    25%{
+        margin-left: 70rem;
+        margin-top: 0;
+        
+    }
+
+}
+.div{
+    width: 600px;
+    height: 300px;
+    padding: 40px;
+    border: 1px solid red;
+    position: absolute;
+    color:rgb(238,186,1);
+    top: 70%;
+    left: 55%;
+    transform: translate(-50%, -50%);
+    background-image: url("./pexels-plato-terentev-5909870.jpg");
+    background-size: cover;
+    display:flexbox;
+    box-sizing: border-box;
+    border-radius: 10px;
+    
+}
+
+
